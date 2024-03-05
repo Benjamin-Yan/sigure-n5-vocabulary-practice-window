@@ -4,6 +4,7 @@
 """
 import pandas as pd
 from tkinter import *
+from tkinter import messagebox
 import random
 
 # 資料庫來源 (N5共有21課)
