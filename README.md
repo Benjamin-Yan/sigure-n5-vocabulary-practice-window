@@ -17,5 +17,31 @@ URL
 Todo
 1. 擴充到*ALL*單元
 2. 重新整理程式碼
-3. 整合之前打好在手機上的說明文件
+3. 改成`物件導向`寫法
+4. 整合之前打好在手機上的說明文件
+5. 擴充到*N4*
+
+---
+
+暫時小記
+`kan_list4 = list(sel4.loc[0: 16, "日文"]) + list(sel4.loc[17: , "假名"])`中，會結合假名是因為要針對外來語所做的調整。
+
+```python
+from functions import some_function  # 引入副程式的檔案
+
+# 定義主要視窗
+def main():
+    # 創建主視窗
+    root = tk.Tk()
+    
+    # 調用副程式
+    some_function()
+    
+    # 啟動主視窗的事件迴圈
+    root.mainloop()
+
+# 呼叫main函數來執行程式
+if __name__ == "__main__":
+    main()
+```
 
